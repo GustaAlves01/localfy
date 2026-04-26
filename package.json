@@ -1,0 +1,30 @@
+{
+  "name": "localfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustaAlves01/localfy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "models",
+  "bugs": {
+    "url": "https://github.com/GustaAlves01/localfy/issues"
+  },
+  "homepage": "https://github.com/GustaAlves01/localfy#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "mongoose": "^9.5.0"
+  }
+}
