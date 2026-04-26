@@ -9,17 +9,18 @@
 <body>
     <div class="titles">
         <h1 class="title">Localfy</h1>
-        <h4 class="subtitle">Download spotify playlist easily</h4>
+        <h4 class="subtitle">Easily download spotify playlists</h4>
     </div>
 
-    <div class="principal">
+    <form action="/submit" method="post" class="principal">
         <div class="buttons">
-            <button class="playlistBtn pButton">Playlist</button>
-            <button class="profileBtn pButton">Profile</button>
-            <button class="singleBtn pButton">Single music</button>
+            <button type="button" name="playlistBtn" class="playlistBtn pButton">Playlist</button>
+            <button type="button" name="profileBtn" class="profileBtn pButton">Profile</button>
+            <button type="button" class="singleBtn pButton">Music</button>
         </div>
-        <input class="input" type="text" placeholder="Set the playlist url">
-    </div>
+        <input class="input" type="text" name="url" placeholder="Set the playlist url">
+        <button type="submit">submit</button>
+    </form>
     
     <script src="./front.js"></script>
 </body>

@@ -1,11 +1,13 @@
 const input = document.querySelector(".input")
-const pButtons = document.querySelectorAll(".pButton")
+const pButtons = document.querySelector(".buttons")
 
+pButtons.addEventListener("click", (e) => {
+    console.log(e)
+    if (e.target.classList.contains("pButton")) {
+        input.placeholder = `Set the ${e.target.textContent.toLowerCase()} url.`
+    }
+}
+)
 
-pButtons.forEach(btn => {
-    btn.addEventListener("click", (e)=>{
-        input.placeholder = e.target.textContent.toLowerCase()
-    })
-})
 
 
